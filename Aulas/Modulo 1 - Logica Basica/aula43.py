@@ -11,7 +11,7 @@ print(lista3)
 
 lista4 = lista1.extend(lista2) # Não é possível fazer isso, o extend trabalha com a lista original
 
-print(lista1) # O método extend não retorna nada, ele modifica a lista original
+print(lista1) # O extend não retorna nada, ele modifica a lista original
 
 lista1.clear()
 print(lista1)
